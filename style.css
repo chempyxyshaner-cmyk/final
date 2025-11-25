@@ -1,0 +1,136 @@
+header{
+    width: 1440px;
+    height: 160px;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -5px 4px 10px rgb(67, 66, 66);
+    /* margin-top: 30px; */
+}
+.header__img{
+width: 200px; height: 55px;
+}
+.header__div{
+    width: 900px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__btn{
+    width: 200px;
+    height: 60px; border: 3px solid red;
+    border-radius: 20px; background-color: white;
+    font-size: 20px;
+}
+.first{
+    font-size: 30px;
+    color: rgb(63, 59, 59);
+}
+.first:hover{
+    transform: translateY(30px);
+    color: red;
+}
+.main__div1{
+    width: 1200px;
+    height: 150px;
+    
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yuva{
+    color: blue;
+    font-size: 43px;
+}
+.main__btn1{
+    width: 360px; height: 50px; background-color: black;
+    font-size: 30px; color: white; border-radius: 15px;
+    margin-left: 78px;
+}
+.main__btn2{
+    width: 130px;
+    height: 50px; background-color: blue; 
+    font-size: 30px; border-radius: 10px; color: white;
+    margin-right: 75px;
+}
+.main__h4{
+    font-size: 35px; color: red;
+}
+.main__div2{
+    width: 1300px;
+    height: 1000px;
+    
+    margin: auto;
+    display: flex; 
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.div2__card{
+    width: 290px;
+    height: 290px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(89, 85, 85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    width: 1440px;
+    height: 1180px;
+    background-color: rgb(241, 231, 217);
+    margin: auto; 
+}
+.div2__img{
+    width: 160px;
+    height: 100px;
+    margin-top: 35px;
+}
+.div2__h4{
+    font-size: 18px;
+}
+.div__p0{
+margin-bottom: 20px;
+
+}
+.div2__p2{
+    color: rgb(78, 76, 76);
+}
+.bv{
+    margin-top: 10px;
+}
+.into{
+    width:290px;
+    height: 170px; 
+}
+.div2__card:active{
+    scale: calc(1.3);
+}
+footer{
+    width: 1440px;
+    height: 65px;
+    
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.footer__p2{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+.footer__img{
+    position: absolute;
+    left: 610px;
+}
+.footer__p{
+    position: absolute;
+    left: 100px;
+}
